@@ -1,0 +1,65 @@
+p{
+    margin: 0;
+    font-family: roboto, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.rps{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.rps-button-grid{
+    display: grid;
+    width: 180px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.button{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button-img{
+    height: 60px;
+    width: 60px;
+}
+
+.js-result{
+    font-size:25px;
+    margin-bottom: 30px;
+}
+
+.js-moves{
+    font-size: 20px;
+}
+
+.score{
+    margin-top: 60px;
+}
+
+.reset-button{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.score-board{
+    margin-top: 20px;
+    margin-left: 30px;
+}

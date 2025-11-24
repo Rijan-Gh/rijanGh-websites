@@ -1,0 +1,62 @@
+p{
+    font-family: Arial;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.youtube-logo{
+    width: 24px; 
+    height:16.86px; 
+    margin-top:50px;
+    margin-bottom:10px;
+}
+
+.video-title{
+    font-weight: bold;
+    font-size: 20px;
+    width:350px;
+    margin-top: 0;
+    margin-bottom: 5;
+}
+
+.video-stats{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.video-author{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 18px;
+
+}
+
+.video-description{
+    color: grey;
+    width:270px;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.apple-logo{
+    width:19.5px;
+    height:24px;
+    margin-bottom: 12px;
+}
+
+.apple-text{
+    font-size: 14px;
+    background-color: rgb(224, 65, 64);
+    color: rgb(255, 255, 255);
+    padding: 18px;
+    text-align: center;
+}
+
+.shop-now{
+    cursor: pointer;
+}
+
+.shop-now:hover{
+    text-decoration: underline;
+}

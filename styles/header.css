@@ -1,0 +1,205 @@
+.header {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 100;
+    border-bottom-width: 1.25px;
+    border-bottom-style: solid;
+    border-bottom-color: #dedede;
+}
+
+.left-section{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border:none;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu-button:hover{
+    background-color: #ececec;
+    transition: 0.15s;
+}
+
+.menu-button:active{
+    background-color: #c6c6c6;
+    transition: 0.15s;
+}
+
+
+.middle-section{
+    display: flex;
+    flex:1;
+    height: 100%;
+    align-items: center; 
+    padding-left: 10px;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 530px;
+    min-width: 100px;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 12px;
+    margin-left: 190px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c6c6c6;
+    z-index: 2;
+}
+
+.search-bar:focus{
+    outline: none;
+    border-color: rgb(119, 119, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar::placeholder{
+    font-family: roboto, arial;
+    font-size: 18px;
+}
+
+.search-icon-button{
+    background-color: white; 
+    height: 40px;
+    outline: none;
+    border:none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c6c6c6;
+    padding: 0 20px;
+    margin-left:-1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+}
+
+.search-icon-button:hover{
+    background-color: rgb(232, 232, 232);
+    transition: 0.15s;
+}
+
+
+.voice-search-button,
+.notification-button{
+    width: 40px;
+    height: 40px;
+    border:none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.voice-search-button:hover,
+.notification-button:hover{
+    background-color: #d9d9d9;
+    transition: 0.15s;
+}
+
+.voice-search-button:active,
+.notification-button:active{
+    background-color: #a1a1a1;
+    transition: 0.15s;
+}
+
+.right-section{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload-button{
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-button:hover{
+    background-color: #c6c6c6;
+    transition: 0.15s;
+}
+
+.upload-button:active{
+    background-color: #a1a1a1;
+    transition: 0.15s;
+}
+
+.menu-button, 
+.search-icon-button,
+.voice-search-button,
+.upload-button,
+.notification-button{
+    cursor: pointer;
+}
+
+
+
+.Misaki{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.search-icon-button, 
+.voice-search-button,
+.notification-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon-button .tooltip, 
+.voice-search-button .tooltip, 
+.notification-button .tooltip{
+    position: absolute;
+    bottom:-40px;
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-icon-button:hover .tooltip,
+.voice-search-button:hover .tooltip, 
+.notification-button:hover .tooltip{
+    opacity: 1;
+}

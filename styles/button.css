@@ -1,0 +1,73 @@
+/* Styling for the Amazon link */
+.link{
+    font-size: larger;           /* increases font size */
+    font-weight: 500;            /* medium bold text */
+    color: rgb(0, 113, 113);     /* teal text color */
+}
+
+/* Changes color when mouse hovers over link */
+.link:hover{
+    color: rgb(255, 85, 0);      /* orange color on hover */
+}
+
+/* Styling for the product title */
+.paragraph{
+    font-size: x-large;          /* very large text */
+    font-weight: bolder;         /* very bold text */
+}
+
+/* Styling for price and stock text */
+.stock{
+    font-size: large;            /* large text */
+    font-weight: bolder;         /* bold text */
+    color: rgb(0, 118, 0);       /* green color for "in stock" */
+}
+
+/* Styling for Add to Cart button */
+.cart{
+    background-color: rgb(255, 216, 20); /* yellow background */
+    color: black;                         /* text color */
+    font-size: small;                     /* small font */
+    font-weight: 500;                     /* medium bold */
+    padding-top: 7.5px;                   /* spacing inside button */
+    padding-bottom: 7.5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 15px;                  /* rounded corners */
+    margin-right: 9px;                    /* space between buttons */
+    border: none;                         /* remove default border */
+}
+
+/* Hover effect for Add to Cart button */
+.cart:hover{
+    opacity: 0.7; /* slightly transparent on hover */
+}
+
+/* Click (active) effect for Add to Cart button */
+.cart:active{
+    opacity: 0.4; /* darker transparency when clicked */
+}
+
+/* Styling for the Buy Now button */
+.buy{
+    background-color: rgb(255, 164, 28); /* orange background */
+    color: black;                         /* text color */
+    font-size: small;                     /* small font */
+    font-weight: 500;                     /* medium bold */
+    padding-top: 7.5px;                   /* spacing inside button */
+    padding-bottom: 7.5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 15px;                  /* rounded corners */
+    border: none;                         /* remove border */
+}
+
+/* Hover effect for Buy Now button */
+.buy:hover{
+    opacity: 0.7; /* slightly transparent on hover */
+}
+
+/* Click (active) effect for Buy Now button */
+.buy:active{
+    opacity: 0.4; /* more transparent when clicked */
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/Video.css">
+    </head>
+
+
+    <body style="height: 1500px;">
+
+        <div class="header">
+
+            <div class="left-section">
+                <button class="menu-button">
+                    <img class="menu-icon" src="youtube-data/icons/hamburger-menu.svg">
+                </button>
+
+                <img style="width: 100px; cursor: pointer;" src="youtube-data/icons/youtube-logo.svg">
+            </div>
+
+            <div class="middle-section">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-icon-button">
+                        <img class="search-icon" style="width: 20px;" src="youtube-data/icons/search-interface-symbol.png">
+                        <div class="tooltip">Search</div>
+                    </button>
+
+                    <button class="voice-search-button">
+                        <img src="youtube-data/icons/voice-search-icon.svg">
+                        <div class="tooltip">Search with your voice</div>
+                    </button>
+            </div>
+
+
+            <div class="right-section">
+                <button disabled class="upload-button">
+                    <img src="youtube-data/icons/upload.png" style="width: 20px; margin-right: 10px;">
+                    <span style="font-family: roboto, arial; font-size: 16px;">Create</span>
+                </button>
+
+                <button class="notification-button">
+                    <img src="youtube-data/icons/notifications.svg">
+                    <div class="tooltip">notifications</div>
+                </button>
+
+                <img class="Misaki" src="youtube-data/channel-pic/profile-pic.jpg">
+            </div>
+        </div>
+
+
+
+
+        <div class="sidebar">
+            <div class="sidebar-links">
+                <img src="youtube-data/icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="youtube-data/icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="youtube-data/icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="youtube-data/icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="youtube-data/icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="youtube-data/icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="container">
+            <!-- ROW 1 -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/G3e-cpL7ofc">
+                        <img src="youtube-data/thumbnails/thumbnail1.avif" class="video-thumbnail">
+                        <div class="video-time">6:31:24</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/G3e-cpL7ofc" class="video-info-link">
+                            <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p>
+                        </a>
+                        <p class="video-author">SuperSimpleDev</p>
+                        <p class="video-stats">17M views • 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/2MdQWo9fHZs">
+                        <img src="youtube-data/thumbnails/thumbnail2.avif" class="video-thumbnail">
+                        <div class="video-time">12:52</div>
+                     </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/2MdQWo9fHZs" class="video-info-link">
+                            <p class="video-title">OnePlus 15 Review: This is Not Normal!</p>
+                        </a>
+                        <p class="video-author">Marques Brownlee V</p>
+                        <p class="video-stats">3.9M views • 6 days ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/QFtbKfGn4vs">
+                        <img src="youtube-data/thumbnails/thumbnail3.avif" class="video-thumbnail">
+                        <div class="video-time">20:33</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/QFtbKfGn4vs" class="video-info-link">
+                            <p class="video-title">I Survived 50 Hours in Meta Glasses</p>
+                        </a>
+                        <p class="video-author">Ryan Trahan</p>
+                        <p class="video-stats">3.2M views • 2 day ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- ROW 2 -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/QtxVdC7pBQM">
+                        <img src="youtube-data/thumbnails/thumbnail4.avif" class="video-thumbnail">
+                        <div class="video-time">39:34</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel4.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/QtxVdC7pBQM" class="video-info-link">
+                            <p class="video-title">Why don't jet engines melt?</p>
+                        </a>
+                        <p class="video-author">Veritasium</p>
+                        <p class="video-stats">587K views • 6 hours ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/BuPD4sSo2tE">
+                        <img src="youtube-data/thumbnails/thumbnail5.avif" class="video-thumbnail">
+                        <div class="video-time">8:03</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/BuPD4sSo2tE" class="video-info-link">
+                            <p class="video-title">Learn to force yourself to ACHIEVE any GOAL</p>
+                        </a>
+                        <p class="video-author">Productive Inside</p>
+                        <p class="video-stats">437K views • 7 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/2AUvqrvXrJ8">
+                        <img src="youtube-data/thumbnails/thumbnail6.avif" class="video-thumbnail">
+                        <div class="video-time">25:56</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/2AUvqrvXrJ8" class="video-info-link">
+                            <p class="video-title">10 Asians Guess Each Other's Nationality!!</p>
+                        </a>
+                        <p class="video-author">World Friends</p>
+                        <p class="video-stats">814K views • 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- ROW 3 -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/KChvUW2eCVE">
+                        <img src="youtube-data/thumbnails/thumbnail7.avif" class="video-thumbnail">
+                        <div class="video-time">3:49</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel7.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/KChvUW2eCVE" class="video-info-link">
+                            <p class="video-title">Treat Her Better</p>
+                        </a>
+                        <p class="video-author">Mac DeMarco</p>
+                        <p class="video-stats">14M views • 10 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/zHhR3daI3bY">
+                        <img src="youtube-data/thumbnails/thumbnail8.avif" class="video-thumbnail">
+                        <div class="video-time">2:04</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel8.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/zHhR3daI3bY" class="video-info-link">
+                            <p class="video-title">Man Vs Baby | Official Trailer | Netflix</p>
+                        </a>
+                        <p class="video-author">Netflix</p>
+                        <p class="video-stats">7.8M views • 8 days ago</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-card">
+                <div class="thumbnail">
+                    <a href="https://youtu.be/R5dphZnPb9A">
+                        <img src="youtube-data/thumbnails/thumbnail9.avif" class="video-thumbnail">
+                        <div class="video-time">3:20</div>
+                    </a>
+                </div>
+                <div class="video-info-grid">
+                    <div class="profile-pic">
+                        <img class="channel-pic" src="youtube-data/channel-pic/channel9.jpg">
+                    </div>
+                    <div class="video-info">
+                        <a href="https://youtu.be/R5dphZnPb9A" class="video-info-link">
+                            <p class="video-title">Nujabes - Lady Brown</p>
+                        </a>
+                        <p class="video-author">Nujabes</p>
+                        <p class="video-stats">2.3M views • 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+    
+
+
+
+
+
+    </body>
+
+</html>
