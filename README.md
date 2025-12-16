@@ -30,9 +30,12 @@ This project mimics the look and structure of YouTube’s homepage, including a 
 ---
 
 ## 📁 Project Structure
-
-
-
+    rijanGh-websites/
+    │
+    ├── youtube-data/ # Channel profile pictures, video thumbnails, icons
+    ├── styles/ # CSS files for YouTube Clone
+    ├── YouTube Clone.html # Main HTML file for YouTube Clone
+    └── README.md
 
 ## 📱 Responsive Design
 
@@ -45,6 +48,48 @@ The layout adjusts for different screen sizes using modern CSS techniques, makin
 This project is open-source and available for learning and educational purposes.
 
 ---
+
+
+# SECOND PROJECT- ROCK PAPER SCISSOR
+# ✊✋✌️ Rock Paper Scissors
+
+A simple **Rock Paper Scissors game** built using **HTML, CSS, and JavaScript**. This mini project demonstrates basic game logic, user interaction, and DOM manipulation.
+
+---
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/5c_Rps-final.html](https://rijan-gh.github.io/rijanGh-websites/5c_Rps-final.html)
+
+## 🎮 Features
+
+* Play Rock, Paper, Scissors against the computer
+* Random computer choice generation
+* Instant result display (Win / Lose / Draw)
+* Simple and clean UI
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML** – Structure
+* **CSS** – Styling
+* **JavaScript** – Game logic
+
+---
+
+## 📁 Project Structure
+
+      Rock-Paper-Scissors/
+      │
+      ├── datas/               # Game assets or data files
+      ├── 5c_Rps-final.html    # Main game file
+      └── README.md
+---
+
+## 📌 Note
+
+This project is created for learning and practice purposes.
+
+---
+
 
 ## 👤 Author
 
