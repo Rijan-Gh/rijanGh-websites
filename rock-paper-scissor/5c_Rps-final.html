@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Rock Paper Scissors</title>
-        <link rel="stylesheet" href="styles/rps-styles.css">
+        <link rel="stylesheet" href="./rps-styles.css">
     </head>
 
 
@@ -10,17 +10,17 @@
         <p style="font-size: xx-large; margin-left: 20px;">Rock Paper Scissors</p>
         <div class="rps">
             <div class="rps-button-grid">
-                <button class="button" onclick="playGame('rock');"><img class="button-img" src="datas/rock-emoji.png"></button>
+                <button class="button" onclick="playGame('rock');"><img class="button-img" src="rps-data/rock-emoji.png"></button>
                 <p>Rock</p>
             </div>
 
             <div class="rps-button-grid">
-                <button class="button" onclick="playGame('paper');"><img class="button-img" src="datas/paper-emoji.png"></button>
+                <button class="button" onclick="playGame('paper');"><img class="button-img" src="rps-data/paper-emoji.png"></button>
                 <p>Paper</p>
             </div>
 
             <div class="rps-button-grid">
-                <button class="button" onclick="playGame('scissor');"><img class="button-img" src="datas/scissor-emoji.png"></button>
+                <button class="button" onclick="playGame('scissor');"><img class="button-img" src="rps-data/scissor-emoji.png"></button>
                 <p>Scissor</p>
             </div>
         </div>
@@ -85,8 +85,8 @@
                 document.querySelector('.js-result').innerHTML = result;
                 document.querySelector('.js-moves').innerHTML = `            
                 You
-                <img src="datas/${playerMove}-emoji.png" class="button-img">
-                <img src="datas/${computerMove}-emoji.png" class="button-img">
+                <img src="rps-data/${playerMove}-emoji.png" class="button-img">
+                <img src="rps-data/${computerMove}-emoji.png" class="button-img">
                 Computer
                 `;
             }
