@@ -2,9 +2,7 @@
 
 A **static YouTube-style homepage clone** built using **HTML and CSS**. This project focuses on recreating the visual layout of YouTube to practice frontend fundamentals like layout design, responsiveness, and clean UI styling.
 
-🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/YouTube/YouTube Clone.html](https://rijan-gh.github.io/rijanGh-websites/YouTube/YouTube Clone.html)
-
-
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/YouTube/YouTube Clone.html](https://rijan-gh.github.io/rijanGh-websites/YouTube/YouTube%20Clone.html)
 ---
 
 ## 📌 Project Overview
@@ -12,7 +10,6 @@ A **static YouTube-style homepage clone** built using **HTML and CSS**. This pro
 This project mimics the look and structure of YouTube’s homepage, including a top navigation bar, search input, and a grid-based video section. It is a **frontend-only** project made for learning and practice purposes.
 
 ---
-
 ## 🚀 Features
 
 * YouTube-inspired UI layout
@@ -43,7 +40,6 @@ This project mimics the look and structure of YouTube’s homepage, including a 
 The layout adjusts for different screen sizes using modern CSS techniques, making it suitable for desktop and smaller devices.
 
 ---
-
 ## 📜 License
 
 This project is open-source and available for learning and educational purposes.
