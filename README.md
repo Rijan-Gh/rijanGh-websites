@@ -102,7 +102,7 @@ A portfolio website. The site highlights skills, learning journey, and ways to c
 - CSS3  
 - Font Awesome  
 
-🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/portfolio.html](https://rijan-gh.github.io/rijanGh-websites/rps/5c_Rps-final.html)
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/portfolio.html](https://rijan-gh.github.io/rijanGh-websites/portfolio.html)
 
 
 # 👤 Author
