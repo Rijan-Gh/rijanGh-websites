@@ -2,7 +2,8 @@
 
 A **static YouTube-style homepage clone** built using **HTML and CSS**. This project focuses on recreating the visual layout of YouTube to practice frontend fundamentals like layout design, responsiveness, and clean UI styling.
 
-🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/YouTube%20Clone.html](https://rijan-gh.github.io/rijanGh-websites/YouTube%20Clone.html)
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/YouTube/YouTube Clone.html](https://rijan-gh.github.io/rijanGh-websites/YouTube/YouTube Clone.html)
+
 
 ---
 
@@ -56,7 +57,7 @@ This project is open-source and available for learning and educational purposes.
 A simple **Rock Paper Scissors game** built using **HTML, CSS, and JavaScript**. This mini project demonstrates basic game logic, user interaction, and DOM manipulation.
 
 ---
-🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/5c_Rps-final.html](https://rijan-gh.github.io/rijanGh-websites/5c_Rps-final.html)
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/rps/5c_Rps-final.html](https://rijan-gh.github.io/rijanGh-websites/rps/5c_Rps-final.html)
 
 ## 🎮 Features
 
@@ -91,6 +92,22 @@ This project is created for learning and practice purposes.
 ---
 
 
-## 👤 Author
+# Portfolio
 
+A portfolio website. The site highlights skills, learning journey, and ways to connect.  
+
+## Features
+- **About Me**: Introduction and background  
+- **Currently Learning**: Skills and technologies being explored  
+- **Contact**: Email and social media links  
+
+## Technologies
+- HTML5  
+- CSS3  
+- Font Awesome  
+
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/portfolio.html](https://rijan-gh.github.io/rijanGh-websites/rps/5c_Rps-final.html)
+
+
+# 👤 Author
 **Rijan Ghimire**
