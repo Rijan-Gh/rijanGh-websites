@@ -45,6 +45,7 @@ The layout adjusts for different screen sizes using modern CSS techniques, makin
 This project is open-source and available for learning and educational purposes.
 
 ---
+---
 
 
 # SECOND PROJECT- ROCK PAPER SCISSOR
@@ -86,24 +87,59 @@ A simple **Rock Paper Scissors game** built using **HTML, CSS, and JavaScript**.
 This project is created for learning and practice purposes.
 
 ---
+---
 
 
 # Portfolio
 
-A portfolio website. The site highlights skills, learning journey, and ways to connect.  
+A portfolio website. The site highlights skills, learning journey, and ways to connect.
 
+--- 
 ## Features
 - **About Me**: Introduction and background  
 - **Currently Learning**: Skills and technologies being explored  
 - **Contact**: Email and social media links  
 
+---
 ## Technologies
 - HTML5  
 - CSS3  
 - Font Awesome  
 
-🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/portfolio.html](https://rijan-gh.github.io/rijanGh-websites/portfolio.html)
+---
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/Portfolio/index.html](https://rijan-gh.github.io/rijanGh-websites/Portfolio/index.html)
 
 
+---
+---
+
+# 📝 ToDo List
+A simple and user-friendly ToDo List web application that helps users manage daily tasks efficiently. Tasks can be added, viewed, and removed with data stored locally in the browser.
+
+
+---
+## 🚀 Features
+- Add new tasks easily
+- Delete completed or unwanted tasks
+- Save tasks using browser Local Storage
+- Responsive and clean user interface
+- Supports adding tasks using the **Enter key**
+
+
+---
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript  
+- jQuery  
+
+---
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/to-do-list/index.html](https://rijan-gh.github.io/rijanGh-websites/to-do-list/index.html)
+
+
+
+
+---
 # 👤 Author
 **Rijan Ghimire**
+---
