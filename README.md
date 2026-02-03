@@ -119,22 +119,42 @@ A simple and user-friendly ToDo List web application that helps users manage dai
 
 ---
 ## 🚀 Features
-- Add new tasks easily
-- Delete completed or unwanted tasks
-- Save tasks using browser Local Storage
-- Responsive and clean user interface
-- Supports adding tasks using the **Enter key**
+    - Add new tasks easily
+    - Delete completed or unwanted tasks
+    - Save tasks using browser Local Storage
+    - Responsive and clean user interface
+    - Supports adding tasks using the **Enter key**
 
 
 ---
 ## 🛠️ Technologies Used
-- HTML5  
-- CSS3  
-- JavaScript  
-- jQuery  
+    - HTML5  
+    - CSS3  
+    - JavaScript  
+    - jQuery  
 
 ---
 🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/to-do-list/index.html](https://rijan-gh.github.io/rijanGh-websites/to-do-list/index.html)
+---
+
+
+# ⏱ StopWatch
+A digital stopwatch built with HTML, CSS, and JavaScript. It allows users to start, stop, reset, and record lap times with millisecond accuracy.
+
+## 🚀 Features
+    - Start / Stop the timer
+    - Reset to 00:00:00:000
+    - Record lap times dynamically
+    - Accurate timing using Date.now()
+
+---
+## 🛠️ Technologies Used
+    - HTML
+    - CSS  
+    - JavaScript   
+
+---
+🔗 **Live Demo:** [https://rijan-gh.github.io/rijanGh-websites/stopWatch/index.html](https://rijan-gh.github.io/rijanGh-websites/stopWatch/index.html)
 
 
 
