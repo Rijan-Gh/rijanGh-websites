@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: #f30000;
+}
+
+#display{
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+#start{
+    background-color: #008404;
+    color: rgb(255, 255, 255);
+}
+
+#stop{
+    background-color: #9f0101;
+    color: #f1f1f1;
+}
+
+#lap{
+    background-color: #0d47a1;
+    color: #fff;
+}
+
+#reset{
+    background-color: #28272789;
+    color: #fff;
+}
+
+#lapList{
+    list-style: none;
+    max-height: 150px;
+    margin-top: 20px;
+    text-align: left;
+}
